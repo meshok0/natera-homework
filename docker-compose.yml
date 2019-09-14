@@ -1,0 +1,6 @@
+version: '2'
+services:
+  graph_path:
+    image: natera-homework:0.1.0
+    volumes:
+      - ${PWD}/graph.json:/graph.json
